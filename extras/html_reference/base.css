@@ -1,0 +1,14 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  margin:0 auto;
+  width:540px;
+  font-size:12px;
+}
+.center {
+  text-align: center !important;
+}
+.wifi_form {
+  width: 100%;
+  margin: 0px;
+}

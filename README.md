@@ -7,6 +7,8 @@ https://github.com/esp8266/Arduino
 # TODO List:
 [ ] Test with travis-ci
 
+[ ] Add loading before HttpRequests
+
 [ ] Add option to choose I18n
 
 [ ] Refactory to a small code
