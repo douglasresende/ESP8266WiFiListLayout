@@ -1,0 +1,27 @@
+.btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  border: #357ebd solid 1px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: relative;
+  cursor: pointer;
+  color: rgb(51, 51, 51);
+  text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(234, 234, 234) 100%);
+  background-repeat: repeat-x;
+  border-color: rgb(204, 204, 204);
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset, rgba(0, 0, 0, 0.0745098) 0px 1px 1px;
+}
+.btn:hover {
+  color: #333333;
+  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(244, 244, 244) 100%);
+  border-color: #adadad;
+}
+[role="button"] {
+  cursor: pointer;
+}

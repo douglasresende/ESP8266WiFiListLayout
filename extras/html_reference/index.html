@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <title>ESP8266WifiList</title>
+  <link rel='stylesheet' href='reset.css'>
+  <link rel='stylesheet' href='base.css'>
+  <link rel='stylesheet' href='table.css'>
+  <link rel='stylesheet' href='modal.css'>
+  <link rel='stylesheet' href='button.css'>
+  <link rel='stylesheet' href='input.css'>
+  <script type='text/javascript' src='base.js'></script>
+  <script type='text/javascript' src='modal.js'></script>
+</head>
+<body onload='start_app()'>
+  <table cellspacing='0'>
+    <thead>
+      <tr>
+        <th>
+          Status
+          <button class='btn' onclick='connectWifi()'>Refresh</button>
+          <button class='btn' onclick='lostWifi()'>Lost WiFi</button>
+        </th>
+        <th>Wifi</th>
+        <th>IP</th>
+      </tr>
+    </thead>
+    <tbody id='wifi_status'>
+      <tr>
+        <td colspan='3'>
+          <center>Disconnected</center>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table cellspacing='0'>
+    <thead>
+      <tr>
+        <th>
+          WiFi
+          <button class='btn' onclick='refreshWiFi()'>Refresh</button>
+        </th>
+        <th>Power</th>
+        <th>Pass?</th>
+        <th>Connect?</th>
+      </tr>
+    </thead>
+    <tbody id='wifi_list'>
+      <tr>
+        <td colspan='4'>
+          <center>Wifi not found</center>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div id='openModal' class='modalDialog'>
+    <div>
+      <table class='wifi_form'>
+        <thead>
+          <tr>
+            <th colspan="2">Please enter password:</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><strong>SSID:</strong></td>
+          <td><input type='text' id='ssid' class='form-control' disabled='disabled'/></td>
+        </tr>
+        <tr>
+          <td><strong>Pass:</strong></td>
+          <td><input type='password' id='pass' class='form-control'/></td>
+        </tr>
+        <tr class='even'>
+          <td colspan='2' class='center'>
+            <button class='btn' onclick='saveAndConnectWifi()'>Connect</button>
+            <button class='btn' onclick='closeModal()'>Cancel</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>
