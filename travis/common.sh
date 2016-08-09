@@ -1,5 +1,4 @@
 #!/bin/bash
-
 function run()
 {
   local exit_code=0
