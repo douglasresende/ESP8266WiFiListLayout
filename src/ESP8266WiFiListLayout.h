@@ -7,7 +7,7 @@
 #ifndef ESP8266WiFiListLayout_h
 #define ESP8266WiFiListLayout_h
 
-#include "arduino.h"
+// #include "arduino.h"
 
 class ESP8266WiFiListLayout
 {
