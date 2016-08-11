@@ -4,7 +4,7 @@
   Released into the public domain.
 */
 
-// #include "arduino.h"
+#include "arduino.h"
 #include "ESP8266WiFiListLayout.h"
 
 ESP8266WiFiListLayout::ESP8266WiFiListLayout()
