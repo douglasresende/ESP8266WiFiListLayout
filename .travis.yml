@@ -3,13 +3,6 @@ language: c
 before_install:
   - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
 
-install:
-  - arduino --install-library "ESP8266WiFi"
-  - arduino --install-library "WiFiClient"
-  - arduino --install-library "ESP8266WebServer"
-  - arduino --install-library "EEPROM"
-  - arduino --install-library "ESP8266WiFiListLayout"
-
 script:
   - build_platform esp8266
 
