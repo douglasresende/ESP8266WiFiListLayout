@@ -7,7 +7,7 @@ install:
   - arduino --install-library "DHT sensor library"
 
 script:
-  - build_platform esp8266
+  - build_platform arduino
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
