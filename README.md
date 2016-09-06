@@ -1,10 +1,12 @@
 # ESP8266WifiListLayout
+[![Build Status](https://travis-ci.org/douglasresende/ESP8266WiFiListLayout.svg?branch=master)](https://travis-ci.org/douglasresende/ESP8266WiFiListLayout)
+
 ESP8266 library to show layout with list, connect and memorize WiFi.
 
-# Installing the Addon With the Arduino Boards Manager
+## Installing the Addon With the Arduino Boards Manager
 https://github.com/esp8266/Arduino
 
-# TODO List:
+## TODO List:
 [ ] Test with travis-ci
 
 [ ] Add loading before HttpRequests
@@ -13,7 +15,7 @@ https://github.com/esp8266/Arduino
 
 [ ] Refactory to a small code
 
-# License
+## License
 **ISC License (ISC)** Copyright (c) 2015, Douglas R. Camargo
 
 Permission to use, copy, modify, and/or distribute this software for any
