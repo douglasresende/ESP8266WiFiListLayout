@@ -4,8 +4,8 @@
 #include <EEPROM.h>
 #include <ESP8266WiFiListLayout.h>
 
-const char *ssid = "ESP8266";
-const char *password = "testando";
+const char *ssid = "ESP8266-01";
+const char *password = "12345678";
 
 ESP8266WebServer server(80);
 ESP8266WiFiListLayout layout;
